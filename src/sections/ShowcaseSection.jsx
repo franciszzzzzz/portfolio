@@ -51,22 +51,25 @@ const ShowcaseSection = () => {
           {/* LEFT SIDE */}
           <div className="first-project-wrapper" ref={project1}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde" />
+              <img src="/images/project1.png" alt="Frost" />
             </div>
             <div className="text-content">
               <h2>
-                On demand rides nade simple with a powerfuk,user-frindely App
-                called Ryde
+                A modern eCommerce experience made simple with a powerful,
+                user-friendly platform called Frost
               </h2>
               <p className="text-white-50 md:text-xl">
-                Ryde is a cutting-edge ridesharing application designed with
-                MERN stack, offering a seamless and efficient transportation
-                experience. With a user-friendly interface, Ryde connects
-                passengers with nearby drivers, providing real-time ride
-                tracking, secure payments, and personalized features for a
-                convenient and enjoyable journey. Whether you're commuting or
-                exploring the city, Ryde is your go-to solution for reliable and
-                hassle-free ridesharing.
+                Frost is a cutting-edge eCommerce web application built with
+                React and Node.js, designed to deliver a fast, scalable, and
+                seamless shopping experience. It features a modern UI, secure
+                JWT authentication, and integrated payment processing with
+                Paystack for smooth transactions. With Redis-powered caching for
+                high performance, Cloudinary for optimized media storage and
+                asset delivery, and a custom-built email service for user
+                notifications, Frost ensures reliability and speed at every
+                level. Whether you're browsing products, managing orders, or
+                completing purchases, Frost provides a secure, responsive, and
+                intuitive shopping experience built for modern users.
               </p>
             </div>
           </div>
@@ -80,12 +83,28 @@ const ShowcaseSection = () => {
                   alt="Library Management System"
                 />
               </div>
-              <h2>Library Management System</h2>
+              <h2>
+                {" "}
+                A real-time chat experience made simple with a fast, secure
+                messaging platform built for modern communication
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                A real-time chat application built with React and Node.js,
+                powered by WebSockets for instant messaging.
+              </p>
             </div>
             <div className="project" ref={project3}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="YC Directory App" />
-                <h2>YC Directory App - a startup shpowcase App</h2>
+                <h2>
+                  A modern, responsive university website designed to deliver a
+                  smooth and engaging user experience for students and visitors
+                </h2>
+                <p className="text-white-50 md:text-xl">
+                  This project is a fully responsive university website built
+                  with React and modern UI principles. It provides a clean,
+                  user-friendly experience for exploring programs, campus life.
+                </p>
               </div>
             </div>
           </div>
