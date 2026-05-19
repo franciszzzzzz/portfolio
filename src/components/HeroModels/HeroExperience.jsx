@@ -1,6 +1,6 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-import { Room } from "./room.jsx";
+import { Room } from "./Room.jsx";
 import Particles from "./Particles.jsx";
 import { OrbitControls } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
